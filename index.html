@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header clearfix">
+        <div class="logo">
+            <span class="z"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-Z1"></use>
+                </svg></span>
+            <span class="q"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-Q1"></use>
+                </svg></span>
+            <span class="q"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-Q1"></use>
+                </svg></span>
+        </div>
+        <nav>
+            <ul class="clearfix">
+                <li><a href="#">简介</a></li>
+                <li><a href="#">生活</a></li>
+                <li><a href="#">获奖证书</a></li>
+                <li><a href="#">论文</a></li>
+                <li><a href="#">联系方式</a></li>
+                <li><a href="#">其它</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="bgimg">
+        <div class="mask"></div>
+    </div>
+    <main>
+        <div class="userCard">
+            <div class="pictureAndText clearfix">
+                <div class="avatar">
+                    <img src="./avatar.jpg" width=240px; height=320px; alt="头像">
+                </div>
+                <div class="text">
+                    <span class="hello">Hello
+                        <span class="triangle"></span>
+                    </span>
+                    <h1>张倩茜</h1>
+                    <p>人民教师</p>
+                    <hr>
+                    <dl class="clearfix">
+                        <dt>年龄</dt>
+                        <dd>22</dd>
+                        <dt>地址</dt>
+                        <dd>成都</dd>
+                        <dt>邮箱</dt>
+                        <dd>451888888@qq.com</dd>
+                        <dt>手机号</dt>
+                        <dd>18488888888</dd>
+                        <dt>应聘职位</dt>
+                        <dd>小学语文</dd>
+                        <dt>到岗日期</dt>
+                        <dd>2020.5.20</dd>
+                    </dl>
+                </div>
+            </div>
+            <footer>
+                <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo"></use>
+                    </svg></a>
+                <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg></a>
+                <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weixin"></use>
+                    </svg></a>
+                <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-tim"></use>
+                    </svg></a>
+                <a href="#" class="baiduIcon"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-baidutieba"></use>
+                    </svg></a>
+            </footer>
+        </div>
+    </main>
+    <section class="downloadAndText">
+        <div class="downloadButton">下载PDF简历</div>
+        <p>毕业于洛阳理工学院，获得汉语言文学学士学位毕业证书，热爱课堂，在成为一名合格的人民教师的路上不断努力着</p>
+    </section>
+    <section class="ability">
+        <h2>能力</h2>
+        <ul class="clearfix">
+            <li>
+                <h3>专业</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:85%;">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>普通话</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:95%;">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>课堂互动</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:98%;">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>粉笔字</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:75%;">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>幽默感</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:88%;">
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>教案质量</h3>
+                <div class="progressBar">
+                    <div class="progress" style="width:90%;">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="album">
+        <h2>生活日常</h2>
+        <nav>
+            <ul class="clearfix">
+                <li id="album1">学习</li>
+                <li id="album2">旅游</li>
+                <li id="album3">日常</li>
+            </ul>
+            <div id="albumBar" class="bar state-1">
+                <div class="bar-inner"></div>
+            </div>
+        </nav>
+        <div class="img">
+            <div class="big" style="top:0; left: 0;"><img src="study.jpg"></div>
+            <div class="small" style="top: 0; left: 600px;"><img src="trip.jpg"></div>
+            <div class="small" style="top: 400px; left: 600px;"><img src="life.jpg"></div>
+        </div>
+    </section>
+    <script src="//at.alicdn.com/t/font_1078926_s2hdm5s2gpm.js"></script>
+    <script>
+        album1.onclick = function () {
+            albumBar.className = 'bar state-1'
+        }
+        album2.onclick = function () {
+            albumBar.className = 'bar state-2'
+        }
+        album3.onclick = function () {
+            albumBar.className = 'bar state-3'
+        }
+    </script>
+</body>
+
+</html>
