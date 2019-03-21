@@ -1,0 +1,338 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: aliceblue;
+    background-color: #01011F;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.header {
+    margin: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.header>nav {
+    float: right;
+    margin: 15px 20px;
+}
+
+.header>nav>ul>li {
+    float: left;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.header>nav>ul>li a {
+    color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    display: block;
+    border-bottom: 3px solid transparent;
+    transition: 1s;
+}
+
+.header>nav>ul>li a:hover {
+    border-bottom: 3px solid #7402A5;
+    border-radius: 2px;
+}
+
+.header>.logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.header>.logo>.z {
+    font-size: 40px;
+}
+
+
+.header>.logo>.q {
+    font-size: 30px;
+}
+
+.bgimg {
+    background-image: url(./headd.jpg);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bgimg>.mask {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 500px;
+}
+
+main>.userCard {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    border-left: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+    box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
+    margin-top: -130px;
+}
+
+main>.userCard .avatar {
+    float: left;
+}
+
+main>.userCard .text {
+    float: left;
+    margin-left: 60px;
+    width: 450px;
+}
+
+
+main>.userCard .hello {
+    background-color: #7402A5;
+    padding: 3px 15px;
+    color: aliceblue;
+    display: inline-block;
+    line-height: 20px;
+    position: relative;
+}
+
+main>.userCard .hello .triangle {
+    display: block;
+    border: 10px solid transparent;
+    width: 0;
+    border-top-width: 0;
+    border-left: 10px solid #7402A5;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+main>.userCard .text>h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+main>.userCard .text>p {
+    font-size: 20px;
+}
+
+main>.userCard .text>hr {
+    width: 450px;
+    margin: 10px 0 15px;
+}
+
+main>.userCard .text dt,
+main>.userCard .text dd {
+    float: left;
+    padding: 5px 0;
+}
+
+main>.userCard .text dt {
+    width: 40%;
+    font-weight: bold;
+}
+
+main>.userCard .text dd {
+    width: 60%;
+    color: #9A9A9A;
+}
+
+main>.userCard footer {
+    background-color: #01011F;
+    text-align: center;
+    border-left: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+    box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
+    margin-top: 15px;
+    max-width: 900px;
+}
+
+main>.userCard footer a.baiduIcon svg {
+    width: 40px;
+    height: 40px;
+}
+
+main>.userCard footer a.baiduIcon {
+    padding: 5px 0;
+    line-height: 40px;
+}
+
+main>.userCard footer a svg {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    fill: aliceblue;
+}
+
+main>.userCard footer a {
+    margin: 20px 30px;
+    display: inline-block;
+    width: 50px;
+    padding: 15px 0;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+main>.userCard footer a:hover {
+    background-color: #7402A5;
+}
+
+section.downloadAndText {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+section>.downloadButton {
+    border: 2px solid aliceblue;
+    display: inline-block;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+section>.downloadButton:hover {
+    box-shadow: 0px 5px 40px -5px rgba(240, 248, 255, 1);
+}
+
+section.downloadAndText>p {
+    font-family: '仿宋';
+    letter-spacing: 2px;
+}
+
+section.ability {
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.ability>h2 {
+    text-align: center;
+    margin: 30px 0 30px;
+}
+
+section.ability ul {
+    border-left: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+    box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
+    padding: 30px;
+}
+
+section.ability li {
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+section.ability li:nth-child(even) {
+    float: right;
+    width: 48%;
+}
+
+section.ability h3 {
+    margin: 15px 0 5px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+section.ability .progressBar {
+    border: 1px solid aliceblue;
+    height: 5px;
+    width: 100%;
+}
+
+section.ability .progress {
+    background-color: aliceblue;
+    height: 5px;
+}
+
+section.album {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+section.album>nav {
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+section.album>nav li {
+    float: left;
+    cursor: pointer;
+}
+
+section.album>nav li:nth-child(2) {
+    margin: 0 50px;
+}
+
+section.album>nav .bar {
+    background-color: aliceblue;
+    height: 5px;
+    margin: 5px 0 20px;
+    border-radius: 3px;
+}
+
+section.album>nav .bar-inner {
+    background-color: #7402A5;
+    border-radius: 3px;
+    height: 100%;
+    transition: 0.7s;
+}
+
+section.album>nav .bar.state-1 .bar-inner {
+    margin-left: 0;
+    width: 34px;
+}
+
+section.album>nav .bar.state-2 .bar-inner {
+    margin-left: 40%;
+    width: 38px;
+}
+
+section.album>nav .bar.state-3 .bar-inner {
+    margin-left: 82%;
+    width: 37px;
+}
+
+section.album>.img {
+    position: relative;
+    height: 700px;
+}
+
+section.album>.img>.big,
+section.album>.img>.small {
+    position: absolute;
+    box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
+}
