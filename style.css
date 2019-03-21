@@ -92,7 +92,7 @@ li {
 }
 
 main>.userCard {
-    max-width: 375px;
+    max-width: 355px;
     margin: auto;
     padding: 15px 15px;
     box-sizing: border-box;
@@ -109,7 +109,7 @@ main>.userCard .avatar {
 main>.userCard .text {
     float: left;
     margin-left: 20px;
-    width: 170px;
+    width: 150px;
 }
 
 
@@ -145,7 +145,7 @@ main>.userCard .text>p {
 }
 
 main>.userCard .text>hr {
-    width: 180px;
+    width: 160px;
     margin: 5px 0 5px;
 }
 
@@ -201,16 +201,17 @@ main>.userCard footer a:hover {
 
 section.downloadAndText {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
 
 }
 
 section>.downloadButton {
     border: 2px solid aliceblue;
     display: inline-block;
-    padding: 20px 50px;
-    margin-bottom: 30px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
     transition: 0.5s;
 }
 
@@ -218,27 +219,30 @@ section>.downloadButton:hover {
     box-shadow: 0px 5px 40px -5px rgba(240, 248, 255, 1);
 }
 
-section.downloadAndText>p {
+section.downloadAndText>.p{
+    padding: 0 5px;
+}
+section.downloadAndText p {
     font-family: '仿宋';
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 section.ability {
 
-    max-width: 900px;
+    max-width: 350px;
     margin: 0 auto;
 }
 
 section.ability>h2 {
     text-align: center;
-    margin: 30px 0 30px;
+    margin: 20px 0px;
 }
 
 section.ability ul {
     border-left: 2px solid aliceblue;
     border-bottom: 2px solid aliceblue;
     box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
-    padding: 30px;
+    padding: 10px;
 }
 
 section.ability li {
@@ -253,9 +257,9 @@ section.ability li:nth-child(even) {
 }
 
 section.ability h3 {
-    margin: 15px 0 5px;
+    margin: 5px 0 5px;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 section.ability .progressBar {
@@ -271,15 +275,15 @@ section.ability .progress {
 
 section.album {
     text-align: center;
-    margin: 50px auto;
-    max-width: 900px;
-    padding: 30px;
+    margin: 20px auto;
+    max-width: 350px;
+    padding: 15px;
 }
 
 section.album>nav {
     text-align: center;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 section.album>nav li {
@@ -322,11 +326,11 @@ section.album>nav .bar.state-3 .bar-inner {
 
 section.album>.img {
     position: relative;
-    height: 700px;
+    height: 350px;
 }
 
 section.album>.img>.big,
 section.album>.img>.small {
     position: absolute;
-    box-shadow: -5px 5px 20px -5px rgba(240, 248, 255, 1);
+    /* box-shadow: -5px 5px 10px -5px rgba(240, 248, 255, 1); */
 }
